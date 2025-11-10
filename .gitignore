@@ -1,0 +1,43 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Logs / runtime junk ---
+*.log
+*.pid
+
+# --- Test & coverage outputs ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# --- IDE / editor stuff ---
+.vscode/
+.idea/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Local environment files ---
+.env
+*.local
